@@ -391,9 +391,8 @@ background-size: 100%;
     flex-wrap: wrap;
     gap: 3rem;
   }
-  .menu .box{
-    flex: 1 1 30rem;
-    margin: 3rem;
+  .menu .box-container .box{
+    flex: 1 1 20rem;
     padding: 1rem;
     background: #43004659;
     border: .1rem solid var(--yellow);
@@ -402,14 +401,14 @@ background-size: 100%;
     text-align: center;
     position: relative;
   }
-  .menu .box img{
+  .menu .box-container .box img{
     top: 0;
     height: 25rem;
     width: 100%;
     object-fit: cover;
     border-radius: .5rem;
   }
-  .menu .box .likes{
+  .menu .box-container .box .likes{
     position: absolute;
     font-weight: bold;
     top: 3rem;
@@ -420,7 +419,7 @@ background-size: 100%;
     color: #9a00a8;
     background:#fff ;
   }
-  .menu .box .like{
+  .menu .box-container .box .like{
     cursor: pointer;
     position: absolute;
     font-weight: bold;
@@ -432,12 +431,12 @@ background-size: 100%;
     color: #9a00a8;
     background:#fff ;
   }
-  .menu .box .like:hover{
+  .menu .box-container .box .like:hover{
     color: #d65696;
     font-size: 2.1rem;
     padding: .5rem;
   }
-  .menu .box .days{
+  .menu .box-container .box .days{
     position: relative;
     background: #fff;
     padding: .6rem;
@@ -448,36 +447,36 @@ background-size: 100%;
   
   
   }
-  .menu .box .days span{
+  .menu .box-container .box .days span{
     color: #fa3698;
     font-weight: bolder;
   }
-  .menu .box .h3{
+  .menu .box-container .box .h3{
     font-size: 2rem;
     display: flex;
     justify-content: space-between;
     padding: 1rem;
     
   }
-  .menu .box .h3 .h5{
+  .menu .box-container .box .h3 .h5{
     margin-top: .5rem;
     font-size: 1.4rem;
     color: #fff;
   }
-  .menu .box .h3 .art{
+  .menu .box-container .box .h3 .art{
     font-size: 1.1rem;
     border-radius: .6rem;
     color: #fff;
     background: #fa3698;
     padding: 1rem;
   }
-  .menu .box .img-container{
+  .menu .box-container .box .img-container{
     padding: .2rem;
     display: flex;
     justify-content: space-between;
      
   }
-  .menu .box .img-container img{
+  .menu .box-container .box .img-container img{
     height: 4rem;
     width: 4rem;
     object-fit: cover;
@@ -485,7 +484,7 @@ background-size: 100%;
   
   
   }
-  .menu .box .img-container .creator{
+  .menu .box-container .box .img-container .creator{
     justify-content: space-between;
     font-size: .9rem;
     line-height: 2rem;
@@ -493,19 +492,19 @@ background-size: 100%;
     padding-right: 4rem;
    
   }
-  .menu .box .img-container .eth{
+  .menu .box-container .box .img-container .eth{
     color: #fff;
     justify-content: space-between;
     font-size: .9rem;
     line-height: 2rem;
    
   }
-  .menu .box .place{
+  .menu .box-container .box .place{
     display: flex;
     justify-content: space-between;
     padding: .3rem;
   }
-  .menu .box .place .btns{
+  .menu .box-container .box .place .btns{
     font-size: 1.2rem;
     border: .2rem solid #b6489e9a;
     padding: .8rem;
@@ -518,7 +517,7 @@ background-size: 100%;
     margin-top: 1rem;
   
   }
-  .menu .box .place .btns::before{
+  .menu .box-container .box .place .btns::before{
       
     content: '';
     position: absolute;
@@ -530,12 +529,12 @@ background-size: 100%;
     transition: .4s linear;
     z-index: -1;
   }
-  .menu .box .place .btns:hover::before{
+  .menu .box-container .box .place .btns:hover::before{
    
   width: 100%;
   left: 0;
   }
-  .menu .box .place p{
+  .menu .box-container .box .place p{
     margin-top: 1.6rem;
   font-size: 1.7rem;
   color: #d65696;
